@@ -1,4 +1,4 @@
-# Speech Understanding Project
+# Speech Understanding Major
 
 This repository contains the code, transcripts, and results for a comprehensive Speech Understanding project consisting of three main components:
 
