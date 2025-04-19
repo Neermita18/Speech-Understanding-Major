@@ -1,14 +1,11 @@
 # Speech Understanding Major
 
-This repository contains the code, transcripts, and results for a comprehensive Speech Understanding project consisting of three main components:
+This repository contains the code, transcripts, and results for my Speech Understanding Major consisting of three main components:
 
 1. **Multilingual Speech Processing** - Transcription, translation, and audio generation in a low-resource language
 2. **Audio Denoising and Transcription** - Analysis and enhancement of moderator speech in noisy environments
 3. **Research on Multimodal Deception Detection** - Analysis of the next frontier in speech understanding
 
-## Project Overview
-
-This project was completed for the Speech Understanding course (B22CS092) and explores various aspects of speech processing, from basic transcription to advanced research concepts.
 
 ## Structure
 
@@ -37,13 +34,13 @@ This component involved transcribing a lecture with code-switched English and Hi
 - Accurate transcription of code-switched content (English-Hindi)
 - Automatic removal of filler words for improved clarity
 - Translation to Bengali, a low-resource language
-- Custom voice synthesis using advanced TTS models
+- Custom voice synthesis using speech features and TTS models
 
 ### Technologies Used
 - Whisper for initial transcription
 - Google Cloud Speech-to-Text for verification
 - Custom preprocessing pipeline for filler word removal
-- Neural TTS system for Bengali voice generation
+- Google TTS system for Bengali voice generation
 
 ### Results
 - Successfully generated high-quality Bengali audio with natural voice characteristics
@@ -56,22 +53,20 @@ This component involved transcribing a lecture with code-switched English and Hi
 This component focused on analyzing audio recordings from various events, designing and implementing denoising algorithms to enhance moderator speech clarity, and evaluating the performance of different approaches.
 
 ### Features
-- Comprehensive noise level analysis of event recordings
-- Implementation of multiple denoising algorithms
+- Comprehensive noise level analysis of different events
+- Implementation of 2 denoising algorithms
 - Transcription of cleaned audio for evaluation
 - Comparative analysis of denoising methods
 
 ### Technologies Used
 - Spectral subtraction for baseline denoising
 - Wiener filtering for advanced noise removal
-- Deep learning-based speech enhancement
-- Whisper for transcription of denoised audio
+- Google STT for transcription of denoised audio and clean audio for comparison
 
 ### Results
 - Quantitative evaluation using Signal-to-Noise Ratio (SNR) improvement and PESQ scores
 - Subjective assessment with Mean Opinion Score (MOS)
-- Transcription accuracy measured using Word Error Rate (WER)
-- Analysis of trade-offs between noise reduction and speech distortion
+- Transcription accuracy measured using Word Error Rate (WER) and Character Error Rate (CER)
 
 ## Question 3: Research on Multimodal Deception Detection
 
